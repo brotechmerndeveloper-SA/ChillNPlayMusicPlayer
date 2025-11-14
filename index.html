@@ -1,0 +1,380 @@
+<!-- 
+  Author: ChillWithTreasureN'Code
+  Date: 2025
+  © 2025 Your Name. All rights reserved.
+  Contact: brotech.merndeveloper@gmail.com
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Chill N' Code|Music Player</title>
+</head>
+
+<body>
+<header>
+    <div class="menu_side">
+        <h1>Chill N' Play</h1>
+        <div class="playlist">
+            <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i> Playlist</h4>
+            <h4 ><span></span><i class="bi bi-music-note-beamed"></i> Last Listening</h4>
+            <h4 ><span></span><i class="bi bi-music-note-beamed"></i> Recommended</h4>
+        </div>
+        <div class="menu_song">
+            <li class="songItem">
+                <span>01</span>
+                <img src="img/1.jpg" alt="Code">
+                <h5>
+                    Soul To Soul
+                    <div class="subtitle">All Temptations</div>
+                </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+            </li>
+            <li class="songItem">
+                <span>02</span>
+                <img src="img/2.jpg" alt="Code">
+                <h5>
+                    You Go To My Head
+                    <div class="subtitle">Geoff McBride</div>
+                </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
+            </li>
+            <li class="songItem">
+                <span>03</span>
+                <img src="img/3.jpg" alt="Code">
+                <h5>
+                    Ever Changing Times
+                    <div class="subtitle">Aritha Fraklin</div>
+                </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="3"></i>
+            </li>
+            <li class="songItem">
+                <span>04</span>
+                <img src="img/4.jpg" alt="Code">
+                <h5>
+                    It's Okay
+                    <div class="subtitle">NightBird</div>
+                </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="4"></i>
+            </li>
+            <li class="songItem">
+                <span>05</span>
+                <img src="img/5.jpg" alt="Code">
+                <h5>
+                    Something Inside
+                    <div class="subtitle">Lira</div>
+                </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="5"></i>
+            </li>
+            <li class="songItem">
+                <span>06</span>
+                <img src="img/6.jpg" alt="Code">
+                <h5>
+                    Uyandithanda
+                    <div class="subtitle">Zonke</div>
+                </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
+            </li>
+        </div>
+    </div>
+
+
+    <div class="song_side">
+        <nav>
+            <ul>
+                <li>Discover <span></span></li>
+                <li>MY LIBRARY</li>
+                <li>RADIO</li>
+            </ul>
+            <div class="search">
+                <i class="bi bi-search"></i>
+                <input type="text" placeholder="Search Music...">
+            </div>
+            <div class="user">
+                <img src="img/Chill N’ Code.png" alt="User" title="Chill N' Code">
+            </div>
+        </nav>
+        <div class="content">
+            <h1>Naledi Aphiwe- Rome & Juliet</h1>
+            <p>
+                The song "Romeo & Juliet" by Naledi Aphiwe takes inspiration from the 
+                <br>
+                famous Shakespearean love story,but it carries a modern, emotional, and soulful twist.
+            </p>
+            <div class="buttons">
+                <button class="customPlay" data-id="8">PLAY</button>
+                <button>FOLLOW</button>
+            </div>
+        </div>
+        <div class="popular_song">
+            <div class="h4">
+                <h4>Popular Song</h4>
+                <div class="btn_s">
+                    <i id="left_scroll" class="bi bi-arrow-left-short"></i>
+                    <i id="right_scroll" class="bi bi-arrow-right-short"></i>
+                </div>
+            </div>
+            <div class="pop_song">
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/7.jpg" alt="Code">
+                        <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
+                    </div>
+                    <h5>All For You
+                        <br>
+                        <div class="subtitle">Glenn Jones</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/8.jpg" alt="Code">
+                        <i class="bi playListPlay bi-play-circle-fill" id="8"></i>
+                        <!-- change All id  -->
+                    </div>
+                    <h5>Rome & Juliet
+                        <br>
+                        <div class="subtitle">Naledi Aphiwe</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/9.jpg" alt="Code">
+                        <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+                    </div>
+                    <h5>Chokeslem
+                        <br>
+                        <div class="subtitle">Kharishma</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/10.jpg" alt="Code">
+                        <i class="bi playListPlay bi-play-circle-fill" id="10"></i>
+                    </div>
+                    <h5>Khethile
+                        <br>
+                        <div class="subtitle">Kwestta</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/11.jpeg" alt="Code">
+                        <i class="bi playListPlay bi-play-circle-fill" id="11"></i>
+                    </div>
+                    <h5>Keeping My Faith In You
+                        <br>
+                        <div class="subtitle">Luther Vandross</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/12.jpeg" alt="Code">
+                        <i class="bi playListPlay bi-play-circle-fill" id="12"></i>
+                    </div>
+                    <h5>Her Heart
+                        <br>
+                        <div class="subtitle">Anthony Hamilton</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/13.jpeg" alt="Code">
+                        <i class="bi playListPlay bi-play-circle-fill" id="13"></i>
+                    </div>
+                    <h5>You Love
+                        <br>
+                        <div class="subtitle">Azana</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/14.jpeg" alt="Code">
+                        <i class="bi playListPlay bi-play-circle-fill" id="14"></i>
+                    </div>
+                    <h5>Running To You
+                        <br>
+                        <div class="subtitle">Chike</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/15.jpeg" alt="Code">
+                        <i class="bi playListPlay bi-play-circle-fill" id="15"></i>
+                    </div>
+                    <h5>Empini
+                        <br>
+                        <div class="subtitle">Kelly Khumalo</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/16.jpeg" alt="Code">
+                        <i class="bi playListPlay bi-play-circle-fill" id="16"></i>
+                    </div>
+                    <h5>Coding Playlist
+                        <br>
+                        <div class="subtitle">Chill Music Lab</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/17.jpeg" alt="Code">
+                        <i class="bi playListPlay bi-play-circle-fill" id="17"></i>
+                    </div>
+                    <h5>Amapiano Mix
+                        <br>
+                        <div class="subtitle">Hurshy on Decks</div>
+                    </h5>
+                </li>
+                 <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/18.jpeg" alt="code">
+                        <i class="bi playListPlay bi-play-circle-fill" id="18"></i>
+                    </div>
+                    <h5>Iqwawe
+                        <br>
+                        <div class="subtitle">Zuko RSA</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/19.jpeg" alt="code">
+                        <i class="bi playListPlay bi-play-circle-fill" id="19"></i>
+                    </div>
+                    <h5>Di Chopper
+                        <br>
+                        <div class="subtitle">Shadesh Lekompo</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/20.jpeg" alt="code">
+                        <i class="bi playListPlay bi-play-circle-fill" id="20"></i>
+                    </div>
+                    <h5>Slender or Sdudla
+                        <br>
+                        <div class="subtitle">Shadesh Lekompo</div>
+                    </h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/21.jpg" alt="code">
+                        <i class="bi playListPlay bi-play-circle-fill" id="21"></i>
+                    </div>
+                    <h5>Jelous
+                        <br>
+                        <div class="subtitle">Savanah</div>
+                    </h5>
+                </li>
+                  <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/22.jpg" alt="code">
+                        <i class="bi playListPlay bi-play-circle-fill" id="22"></i>
+                    </div>
+                    <h5>All that Matters
+                        <br>
+                        <div class="subtitle">Minister GUC</div>
+                    </h5>
+                </li>
+            </div>
+        </div>
+        <div class="popular_artists">
+            <div class="h4">
+                <h4>Popular Artists</h4>
+                <div class="btn_s">
+                    <i id="left_scrolls" class="bi bi-arrow-left-short"></i>
+                    <i id="right_scrolls" class="bi bi-arrow-right-short"></i>
+                </div>
+            </div>
+            <div class="item">
+                <li>
+                    <img src="img/8.jpg" alt="Naledi" title="Naledi">
+                </li>
+                <li>
+                    <img src="img/13.jpg" alt="Azana" title="Azana">
+                </li>
+                <li>
+                    <img src="img/13.jpg" alt="Kwesta" title="Kwesta">
+                </li>
+                <li>
+                    <img src="img/5.jpg" alt="Lira" title="Lira">
+                </li>
+                <li>
+                    <img src="img/6.jpg" alt="Zonke" title="Zonke">
+                </li>
+                <li>
+                    <img src="img/18.jpg" alt="Zuko" title="Zuko">
+                </li>
+                <li>
+                    <img src="img/9.jpg" alt="Kharishma" title="Kharishma">
+                </li>
+                <li>
+                    <img src="img/4.jpg" alt="NightBird" title="NightBird">
+                </li>
+                <li>
+                    <img src="img/15.jpg" alt="Kelly Khumalo" title="Kelly Khumalo">
+                </li>
+                <li>
+                    <img src="img/1.jpg" alt="Soul to Soul" title="Soul to Soul">
+                </li>
+                <li>
+                    <img src="img/14.jpg" alt="Chike" title="Chike">
+                </li>
+                <li>
+                    <img src="img/17.jpg" alt="Hurshy" title="Hurshy">
+                </li>
+                <li>
+                    <img src="img/20.jpg" alt="Shadesh" title="Shadesh">
+                </li>
+                <li>
+                    <img src="img/21.jpg" alt="Savanah" title="Savanah">
+                </li>
+                <li>
+                    <img src="img/22.jpg" alt="Minister GUC" title="Minister GUC">
+                </li>
+                <!-- change all img  -->
+            </div>
+        </div>
+    </div>
+
+
+    <div class="master_play">
+        <div class="wave">
+            <div class="wave1"></div>
+            <div class="wave1"></div>
+            <div class="wave1"></div>
+        </div>
+        <img src="img/8.jpg" alt="Code" id="poster_master_play">
+        <h5 id="title">Rome & Juliet<br>
+            <div class="subtitle">Naledi Aphiwe</div>
+        </h5>
+        <div class="icon">
+            <i class="bi bi-arrow-repeat" id="repeat"></i>
+            <i class="bi bi-skip-start-fill" id="back"></i>
+            <i class="bi bi-play-fill" id="masterPlay"></i>
+            <i class="bi bi-skip-end-fill" id="next"></i>
+        </div>
+        <span id="currentStart">0:00</span>
+        <div class="bar">
+            <input type="range" id="seek" min="0" value="0" max="100">
+            <div class="bar2" id="bar2"></div>
+            <div class="dot"></div>
+        </div>
+        <span id="currentEnd">0:00</span>
+
+        <div class="vol">
+            <i class="bi bi-volume-down-fill" id="vol_icon"></i>
+            <input type="range" id="vol" min="0" value="30" max="100">
+            <div class="vol_bar"></div>
+            <div class="dot" id="vol_dot"></div>
+        </div>
+    </div>
+</header>
+    <script src="app.js"></script>
+</body>
+
+</html>
